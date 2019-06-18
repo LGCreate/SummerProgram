@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/03/14/06/wood-1794340_960_720.jpg");
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    background-size: 2150px 1100px;
+}
+h1 {
+    font-size: 100px;
+}
+p1 {
+    font-size: 50px;
+}
+img {
+    float: left;
+    height: 500px;
+}
+p {
+    font-size: 25px;
+}
