@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/14/14/55/wall-2640737_960_720.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(20, 20, 20);
+    background-size: 2200px 1100px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 25px;
+}
+
+p1 {
+    font-size: 50px;
+    background-color: rgb(20,20,20);
+    color: rgb(218, 216, 216);
+}
