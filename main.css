@@ -7,6 +7,14 @@
     100% {color: white; left:0px; top:0px;}
 }
 
+@-webkit-keyframes another {
+    0% {background-color: white; left:0px; top:0px;}
+    25% {background-color: greenyellow; left:200px; top:0px;}
+    50% {background-color: blue; left:200px; top:200px;}
+    75% {background-color: red; left:0px; top:200px;}
+    100% {background-color: white; left:0px; top:0px;}
+}
+
 /* The element to apply the animation to */
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -15,7 +23,7 @@ h1 {
     font-size: 100px;
     color: rgb(255, 255, 255);
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 body {
@@ -24,12 +32,17 @@ body {
     background-color: black;
     background-size: 800px 1100px;
 }
+
 p {
     text-align: center;
     font-size: 37px;
     color: Black;
     overflow: hidden;
-    background-color: greenyellow;
+    background-color: yellowgreen;
+    opacity: .5;
+    -webkit-animation-name: another;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 b {

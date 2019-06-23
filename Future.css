@@ -7,6 +7,8 @@ body {
 
 h1 {
     font-size: 100px;
+    color: rgb(170, 15, 170);
+    text-shadow: 4px 4px 7px rgb(4, 4, 245);
 }
 
 p {

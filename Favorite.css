@@ -6,6 +6,9 @@ body {
 
 h1 {
     font-size: 100px;
+    color: turquoise;
+    text-shadow: 4px 4px 7px pink;
+
 }
 
 p {

@@ -7,7 +7,8 @@ body {
 
 h1 {
     font-size: 100px;
-    color: black;
+    color: rgb(216, 208, 164);
+    text-shadow: 5px 5px 8px black;
 }
 
 p {
@@ -26,4 +27,5 @@ p2 {
 table, th, td {
     font-size: 50px;
     border: 5px solid black;
+    background-color: rgba(243, 242, 236, 0.4);
 }
