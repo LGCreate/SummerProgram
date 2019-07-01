@@ -17,11 +17,15 @@ img {
     float: left;
     height: 400px;
 }
-p {
+nav {
     font-size: 25px;
     color:white;
 }
 
 p.second {
     color: white;
+}
+
+li {
+    display: inline;
 }

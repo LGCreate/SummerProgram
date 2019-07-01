@@ -11,7 +11,7 @@ h1 {
 
 }
 
-p {
+nav {
     font-size: 25px;
 }
 
@@ -19,10 +19,14 @@ p.main {
     font-size: 50px;
 }
 
-li {
+ol {
     font-size: 40px;
 }
 
 p.second {
     color: black;
+}
+
+li.bam {
+    display: inline;
 }
