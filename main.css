@@ -33,7 +33,7 @@ body {
     background-size: 800px 1100px;
 }
 
-div {
+header {
     text-align: center;
     font-size: 37px;
     color: Black;
@@ -62,4 +62,8 @@ p {
 
 .active {
     background-color: white;
+}
+
+li {
+    display: inline;
 }
