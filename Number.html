@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Number Game</title>
+        <link rel="stylesheet" href="Number.css">
+    </head>
+    <body>
+        <h1>Welcome To The Number Game!</h1>
+        <nav>
+                <ul>
+                    <li class="bam"><b>Game</b></li> | 
+                    <li class="bam"><a href="./index.html">Home</a></li> | 
+                    <li class="bam"><a href="./AboutMe.html">About</a></li> | 
+                    <li class="bam"><a href="./Interests.html">Interests</a></li> | 
+                    <li class="bam"><a href="./FuturePlans.html">Future</a></li> |
+                    <li class="bam"><a href="./FavoriteSites.html">Favorites</a></li>
+                </ul>
+            </nav>
+        <h2>Please pick a number between 1 and 100.</h2>
+        <div class="form">
+            <label for="guessField">Enter a guess: </label>
+            <input type="text" id="guessField" class="gueddField">
+            <input type="submit" value=" Submit guess" class="guessSubmit" id="submitguess">
+        </div>
+        <script type="text/javascript">
+            var y = Math.floor(Math.random() * 100) + 1;
+            var guess = 1;
+            document.getElementById("submitguess").onclick = function(){
+                var x = document.getElementById("guessField").value;
+                if(x == y)
+                {
+                    alert("Congradulations!! You guessed right in " + guess + " GUESS ");
+                }
+                else if(x > y)
+                {
+                    guess++;
+                    alert("OPPS! Sorry try a lower number!");
+                }
+                else
+                {
+                    guess++;
+                    alert("OPPS! Sorry try a higher number!")
+                }
+            }
+        </script>
+    </body>
+</html>
