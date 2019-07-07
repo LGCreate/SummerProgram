@@ -24,6 +24,8 @@
             <input type="submit" value=" Submit guess" class="guessSubmit" id="submitguess">
         </div>
         <script type="text/javascript">
+            var audio = new Audio('bensound-perception.mp3');
+            audio.play();
             var y = Math.floor(Math.random() * 100) + 1;
             var guess = 1;
             document.getElementById("submitguess").onclick = function(){
@@ -31,17 +33,35 @@
                 if(x == y)
                 {
                     alert("Congradulations!! You guessed right in " + guess + " GUESS ");
+                    var audio = new Audio('YAY.mp3');
+                    audio.play();
+                }
+                else if(x > 100)
+                {
+                    guess++;
+                    alert("Sorry that is not a number 1 through 100!")
+                }
+                else if(x < 1)
+                {
+                    guess++;
+                    alert("Sorry that is not a number 1 through 100!")
                 }
                 else if(x > y)
                 {
                     guess++;
                     alert("OPPS! Sorry try a lower number!");
                 }
-                else
+                else if(x < y)
                 {
                     guess++;
                     alert("OPPS! Sorry try a higher number!")
                 }
+                else 
+                {
+                    guess++;
+                    alert("Sorry that is not a number 1 through 100!")
+                }
+                console.log(y);
             }
         </script>
     </body>
